@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@600&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+*{
+    padding:0px;
+    border:0px;
+}
+.background-img{
+    background-image: url("../images/bg-desktop.svg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    height:110vh;
+}
+.description{
+    position:relative;
+    top:150px;
+}
+.text-description{
+    font-family: 'Open Sans', sans-serif;
+    color:rgb(206, 205, 205);
+    line-height:1.5;
+    word-spacing:7%;
+    position:relative;
+    left:125px;
+    top:70px;
+    width:70%;
+}
+.description-text{
+    font-family:'Poppins', sans-serif;
+    color:#fff;
+    font-weight:600;
+    position:relative;
+    top:45px;
+    left:125px;
+    margin-right: 150px;
+    line-height:1.5;
+    word-spacing:7%;
+    width:70%;
+}
+.btn {
+    background: #FF5CFF;
+    background-image: -webkit-linear-gradient(top, #FF5CFF, #FF2EFF);
+    background-image: -moz-linear-gradient(top, #FF5CFF, #FF2EFF);
+    background-image: -ms-linear-gradient(top, #FF5CFF, #FF2EFF);
+    background-image: -o-linear-gradient(top, #FF5CFF, #FF2EFF);
+    background-image: linear-gradient(to bottom, #FF5CFF, #FF2EFF);
+    -webkit-border-radius: 60;
+    -moz-border-radius: 60;
+    border-radius: 60px;
+    font-family: Georgia;
+    color: #ffffff;
+    font-size: 20px;
+    padding: 12px 65px 12px 65px;
+    text-decoration: none;
+}
+  
+.btn:hover {
+    background: #FF8AFF;
+    text-decoration: none;
+    color:#fff;
+  }
+  .button{
+    position:relative;
+    left:125px;
+    top:95px;
+  }
+.icons{
+    padding-top: 50px;
+    padding-bottom: 25px;
+    text-align: right;
+    padding-right:90px;
+}
+.icon1{
+    padding:0% 1%;
+    color:#fff;
+  }
+  i:hover{
+    color:#FF8AFF;
+  }
+body{
+    background-color:hsl(257, 40%, 49%);
+}
+#brand-image{
+    position:relative;
+    top:50px;
+    left:70px;
+}
+#mock{
+    position:relative;
+    left:75px;
+    width:100%;
+}
+@media (max-width:600px){
+    #mock{
+        width:80%;
+        position:relative;
+        left:50px;
+    }
+    .background-img{
+        background-image: url("../images/bg-mobile.svg");
+        background-size: cover;
+        background-repeat: no-repeat;
+        height:80vh;
+    }
+    #brand-image{
+        position:relative;
+        left:50px;
+        width:35%;
+    }
+    .text{
+        text-align:center;
+    }
+    .text-description{
+        font-family: 'Open Sans', sans-serif;
+        color:rgb(206, 205, 205);
+        line-height:1.5;
+        word-spacing:11%;
+        top:70px;
+        position:relative;
+        left:50px;
+        width:370px;
+    }
+    .description-text{
+        font-family:'Poppins', sans-serif;
+        color:#fff;
+        font-weight:600;
+        line-height:1.5;
+        word-spacing:7%;
+        position:relative;
+        left:40px;
+        width:390px;
+    }
+    .button{
+        position:relative;
+        left:0px;
+        top:120px;
+        padding-left: 65px;
+        padding-right: 65px;
+        width:262px;
+        padding-top:8px;
+        padding-bottom:8px;
+    }
+    .btn:hover {
+        background: #fff;
+        text-decoration: none;
+        color:hsl(257, 40%, 49%)
+    }
+    .icons{
+        text-align:center;
+        margin-top: 130px;
+        padding-left:95px;
+    }
+    .icon1{
+        padding:0 10px;
+    }
+}
